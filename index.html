@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Twitter Page With Server</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- TODO: Create HTML elements for Twitter mockup inside body -->
+    <div role="navigation">
+      <nav class="navbar-class">
+        <a href="#main-tweets-id" display: none;></a>
+        <a class="navbar-button-class" id="home-button-id">Home</a>
+        <a class="navbar-button-class">Moments</a>
+        <a class="navbar-button-class">Notifications</a>
+        <a class="navbar-button-class">Messages</a>
+        <span class="twitter-logo-container-class">
+          <img src="images/twitter-logo.png" class="twitter-logo-class" alt="Twitter logo">
+        </span>
+        <span class="input-group rounded">
+          <input id="searchBar"  type="search" placeholder="Search in tweets">
+        </span>
+        <span class="tweet-button-container-class">
+          <a class="tweet-text-class">Tweet</a>
+        </span>
+      </nav>
+    </div>
+
+    <div class="content-wrapper-class">
+      <div class="content-left-class">
+        <img src="images/ratatouille-banner.png" class="cover-picture-class" alt="Cover picture">
+        <img src="images/ratatouille.jpg" class="profile-picture-class" alt="Profile picture">
+        <span class="profile-name-container-class">
+          <b class="profile-name-class">Remy</b> 
+          <b class="profile-username-class">@remy</b>
+        </span>
+        <div class="profile-title-stats-class">
+          <b>Tweets</b>
+          <b>Following</b>
+          <b>Followers</b>
+        </div>
+        <div class="profile-stats-class">
+          <b>5049</b>
+          <b>324</b>
+          <b>809</b>
+        </div>
+      </div>
+
+      <div class="content-center-class">
+        <span>
+          <em>Refresh Tweets Every 5 Seconds</em>
+          <input type="checkbox" id="pauseBox">
+        </span>
+        <div class="tweets-class" id="tweet-container">
+          <div id="main-tweets-id" class="tweets" role="main">
+            <img src="images/ratatouille.jpg" class="tweet-picture-class" alt="Profile picture">
+            <b class="tweet-name-class">Remy</b> 
+            <b class="tweet-username-class">@remy</b>
+            <b class="tweet-username-class">Nov 19</b>
+            <p> I'm taking this class called CS110 and the TAs are all so cool!</p>
+          </div>
+          <div class="tweets">
+            <img src="images/ratatouille.jpg" class="tweet-picture-class" alt="Profile picture">
+            <b class="tweet-name-class">Remy</b> 
+            <b class="tweet-username-class">@remy</b>
+            <b class="tweet-username-class">Nov 19</b>
+            <p> It's 2007. You just got home from elementary school and mom has pizza bagels in the oven. ratatouille is playing. Life is good.</p>
+          </div>
+          <div class="tweets">
+            <img src="images/ratatouille.jpg" class="tweet-picture-class" alt="Profile picture">
+            <b class="tweet-name-class">Remy</b> 
+            <b class="tweet-username-class">@remy</b>
+            <b class="tweet-username-class">Nov 19</b>
+            <p> Let's make some pasta!</p>
+          </div>
+          <div class="tweets">
+            <img src="images/ratatouille.jpg" class="tweet-picture-class" alt="Profile picture">
+            <b class="tweet-name-class">Remy</b> 
+            <b class="tweet-username-class">@remy</b>
+            <b class="tweet-username-class">Nov 19</b>
+            <p> Let's make some pasta!</p>
+          </div>
+          <div class="tweets">
+            <img src="images/ratatouille.jpg" class="tweet-picture-class" alt="Profile picture">
+            <b class="tweet-name-class">Remy</b> 
+            <b class="tweet-username-class">@remy</b>
+            <b class="tweet-username-class">Nov 19</b>
+            <p> Let's make some pasta!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-right-class">
+        <b class="content-right-text-class-">Who to follow</b>
+        <div class="recommended-profile-class">
+          <img src="images/linguini.png" class="tweet-picture-class" alt="Profile picture">
+          <b class="tweet-name-class">Linguini</b> 
+          <b class="tweet-username-class">@linguini</b>
+          <div class="follow-button-container-class">
+            <a class="follow-button-class">Follow</a>
+          </div>
+        </div>
+        <div class="recommended-profile-class">
+          <img src="images/ratatouille.jpg" class="tweet-picture-class" alt="Profile picture">
+          <b class="tweet-name-class">CS110 TA</b> 
+          <b class="tweet-username-class">@cs</b>
+          <div class="follow-button-container-class">
+            <a class="follow-button-class">Follow</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
